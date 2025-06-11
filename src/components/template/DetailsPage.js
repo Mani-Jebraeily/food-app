@@ -1,14 +1,3 @@
-// import React from 'react'
-// import styles from "./DetailsPage.module.css"
-
-// function DetailsPage() {
-//   return (
-//     <div>DetailsPage</div>
-//   )
-// }
-
-// export default DetailsPage
-
 import styles from "./DetailsPage.module.css";
 import Location from "../icons/Location";
 import Dollar from "../icons/Dollar";
