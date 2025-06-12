@@ -19,7 +19,7 @@ function Layoute({ children }) {
             <div className={styles.container}>{children}</div>
             <footer className={styles.footer}>
                 <a href='https://github.com/Mani-Jebraeily' target='_blank' rel='noreferrer'>
-                Mani Jebraeily | Food App &copy;
+                    Mani Jebraeily | Food App &copy;
                 </a>
 
             </footer>

@@ -13,7 +13,7 @@ function Menu({ data }) {
 export default Menu
 
 export async function getStaticProps() {
-  const res = await axios.get("http://localhost:4000/data")
+  const res = await axios.get(`${process.env.BASE_URL}/data`)
   const data = res.data
   console.log(data)
 
@@ -21,7 +21,7 @@ export async function getStaticProps() {
     props: {
       data
     },
-    revalidate: 60 * 60
+    revalidate: +process.env.REVALIDATE
 
   }
 
